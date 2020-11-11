@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    /* font: 15 / 1.5/ Arial, Helvetica, sans-serif; */
+    padding:0;
+    background-color:#f4f4f4;
+    
+
+}
+/*Global*/
+.Container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header{
+    background-color: #35424a;
+    color:white;
+    border-bottom:orangered solid;
+    min-height:70px;
+    padding-top:30px;
+}
+
+header h1{
+    float:left;
+}
+
+.Acme{
+    padding-right:10px;
+    color:orangered;
+}
+
+header ul{
+    float:right;
+    margin:0;
+    padding:0;
+
+}
+
+header li{
+    list-style-type: none;
+    display:inline;
+    padding: 0 20px 0 20px;
+    
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    color:orangered;
+}
+
+nav{
+    margin-top:33px;
+}
+
+.Desc{
+    background-color: grey;
+    color:white;
+    padding-top:30px;
+    padding-bottom:60px;
+    border-bottom:black solid;
+
+}
+
+.Desc h1{
+    margin-left:30px;
+    font-size:30px;
+    
+}
+
+#Sub{
+    background-color: #35424a;
+    color:white;
+    padding:20px;
+}
+
+#Sub label{
+    padding-right:60px;
+    font-weight: bold;
+}
+
+#Sub button{
+    background-color:orangered;
+    color:white;
+    border:none;
+    padding:5px;
+    font-size:14px;
+    font-weight: bold;
+}
+
+#Services article{
+    display:inline-block;
+    padding:0;
+    margin:0;
+    padding-right:19px;
+}
+
+#HtmlMarkup{
+    font-size:15px;
+    width:28%;    
+}
+
+#Css3Styling{
+    font-size:15px;
+    width:30%;
+}
+
+#GraphicDesign{
+    font-size:15px;
+    width:30%;
+}
+
+footer{
+    background-color: orangered;
+    text-align:center;
+    color:white;
+    
+}
+
+#AboutFooter{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+
+}
+
+#AboutDesc h2{
+    text-align:center;
+}
+
+#AboutDesc ul{
+    list-style-type: none;
+}
+
+#AboutDesc li{
+    display:inline;
+    padding-right:40px;
+    margin-left:65px;
+}
+
