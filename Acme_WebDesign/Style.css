@@ -1,0 +1,204 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+   /* font: 15px / 1.5 Arial,Helvetica,sans-serif;*/
+   background-color:#f4f4f4;
+}
+
+/*Global*/
+.Container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.Dark{
+    padding:15px;
+    background: #35424a;
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/*Header*/
+header{
+    background:#35424a;
+    color:white;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+}
+
+header #Branding{
+    float:left;
+    margin:0;
+}
+
+header a{
+    color:white;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+ a:hover{
+     color:#e8491d;
+ }
+
+
+
+ ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .Highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+}
+
+/*Showcase*/
+#Showcase{
+    min-height:400px;
+    background-color:#7e878d;
+    color:white;
+    text-align:center;
+}
+
+#Showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#Showcase p{
+    font-size:20px;
+}
+
+#NewsLetter{
+    padding:15px;
+    color:white;
+    background:#35424a;
+    border-top:#e8491d 3px solid;
+}
+
+#NewsLetter h1{
+    float:left;
+}
+
+#NewsLetter form{
+    float:right;
+    margin-top:15px;
+}
+
+#NewsLetter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+
+.ButtonOne{
+    height:38px;
+    background:#e8491d;
+    border:none;
+    padding-left:20px;
+    padding-right:20px;
+    color:white;
+}
+
+#Boxes{
+    margin-top:20px;
+}
+
+#Boxes .Box{
+    float:left;
+    width:30%;
+    padding:10px;
+    text-align:center;
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color: white;
+    background:#e8491d;
+    text-align:center; 
+}
+
+aside#SideBar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+
+article.Main-Col{
+    float:left;
+    width:65%;
+}
+
+/*Services*/
+ul#Services li{
+    padding:20px;
+    border: gray 1px solid;
+    margin-bottom:5px;
+    background:#e6e6e6;
+
+}
+
+aside#SideBar .Quote input,aside#SideBar .Quote textarea{
+    width:90%;
+    padding:5px;
+
+}
+
+/*Mobile Devices*/
+@media(max-width:768px){
+
+    header #Branding,
+    header nav,
+    header nav li,
+    #NewsLetter h1,
+    #NewsLetter form,
+    #Boxes .Box,
+    article.Main-Col,
+    aside#SideBar{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+
+    header{
+        padding-bottom:20px;
+    }
+
+    #Showcase h1{
+        margin-top:40px;
+    }
+
+    #NewsLetter button,
+    .Quote button{
+        display:block;
+        width:100%;
+        margin-bottom:5px;
+    }
+
+    #NewsLetter form input[type="email"], .Quote input, .Quote textarea{
+        width:100%;
+    }
+
+
+    
+}
