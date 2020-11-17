@@ -31,7 +31,6 @@ header{
 }
 
 header #Branding{
-    float:left;
     margin:0;
 }
 
@@ -52,6 +51,7 @@ header a{
     list-style-type:none;
     margin:0;
     padding:0;
+    margin-top:-5px;
 }
 
 header li{
@@ -201,4 +201,22 @@ aside#SideBar .Quote input,aside#SideBar .Quote textarea{
 
 
     
+}
+
+/*Keeps nav in place*/
+
+@media(min-width:770px){
+    header ul{
+        margin-top:-60px;
+    }
+}
+
+/*Fixes the About Footer When Full Screen*/
+@media(min-width:914px){
+    .AboutFooter{
+        position: relative;
+        height:50px;
+        margin-top:180px;
+        
+    }
 }
