@@ -1,13 +1,17 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
     line-height:1.5;
-    font-size:15px;
+    font-size:25px;
 }
 
 .Container{
     width:80%;
     margin:auto;
     overflow:hidden;
+}
+
+.HeadColor{
+    color:#14C400;
 }
 
 header{
@@ -23,13 +27,13 @@ header h1{
 nav ul{
     list-style:none;
     float:right;
-    margin-top:30px;
+    margin-top:55px;
 }
 
 nav li{
     display:inline;
     padding-right:20px;
-    font-size:20px;
+    font-size:30px;
 }
 
 nav a{
@@ -57,6 +61,24 @@ nav a:hover{
     font-size:25px;
 }
 
+#PortWelcomeSection{
+    background-color:#676767;
+    color:white;
+    text-align:center;
+    border-bottom:#14C400 solid 7px;
+    padding-bottom:2px;
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+#PortWelcomeSection h1{
+    font-size:40px;
+    margin-bottom:-10px;
+}
+
+#PortWelcomeSection p{
+    font-size:25px;
+}
 .Skills{
     display:inline-flex;
     text-align:center;
@@ -85,6 +107,38 @@ footer{
     color:white;
 }
 
+.Projects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.Projects #AcmeWeb img{
+    width:700px;
+    margin:auto;
+}
+
+.Projects #AcmeWeb{
+    text-align:center;
+}
+
+#AboutContent{
+    display:flex;
+}
+
+#AboutMe{
+    width:70%;
+}
+
+#Contact{
+    float:right;
+    background-color: #676767;
+    margin-top:10px;
+    margin-bottom:10%;
+    padding:10px;
+    font-weight:bold;
+}
+
 @media(max-width:768px){
     header h1,
     nav,
@@ -104,4 +158,9 @@ footer{
         width:100%;
 
     }
+
+    .Projects #AcmeWeb img{
+        width:500px;
+    }
 }
+
