@@ -114,11 +114,22 @@ footer{
 }
 
 .Projects #AcmeWeb img{
-    width:700px;
+    width:500px;
     margin:auto;
+    height:280px;
 }
 
 .Projects #AcmeWeb{
+    text-align:center;
+}
+
+.Projects #TributePage img{
+    width:500px;
+    margin:auto;
+    height:280px;
+}
+
+.Projects #TributePage{
     text-align:center;
 }
 
