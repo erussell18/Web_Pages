@@ -1,0 +1,90 @@
+body{
+    line-height:2;
+    font-size:25px;
+    width: 80%;
+    margin:auto;
+    text-align:center;
+    background-color:lightblue;
+    color:white;
+}
+
+header h1{
+    margin-bottom:-30px;
+
+}
+
+form{
+    background-color:rgb(0,0,0,30%);
+    border-radius: 5px;
+
+}
+
+label,
+input,
+select,
+option,
+textarea{
+    display:inline-block;
+    float:left;
+}
+
+.Shaper{
+    margin-left:10%;
+    font-weight:bold;
+}
+
+#name,
+#email,
+#age,
+#dropdown{
+    width:80%;
+    background-color:black;
+    padding:8px;
+    border-radius:5px;
+    color:grey;
+}
+
+option{
+    background-color: white;
+    color:grey;
+    font-size:15px;
+}
+
+#Likely,
+#NotLikely,
+#NotSure{
+    height: 35px;
+    margin-right:2%;
+    margin-top:1%;
+}
+
+#Soccer,
+#Hockey,
+#Football{
+    height: 35px;
+    margin-right:2%;
+    margin-top:1%;
+}
+
+input[type=checkbox],
+input[type=radio]{
+    transform: scale(1.5);
+}
+
+#textarea{
+    width:80%;
+    background-color:black;
+    color:grey;
+    height:100px;
+}
+
+#Submit{
+    width:80%;
+    color:white;
+    background-color:lightgreen;
+    border:none;
+    border-radius: 5px;
+    height:40px;
+    margin-bottom:5%;
+    margin-top:5%;
+}
