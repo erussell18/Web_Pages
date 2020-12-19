@@ -61,7 +61,7 @@ option{
 #Soccer,
 #Hockey,
 #Football{
-    height: 35px;
+    height: 30px;
     margin-right:2%;
     margin-top:1%;
 }
@@ -87,4 +87,20 @@ input[type=radio]{
     height:40px;
     margin-bottom:5%;
     margin-top:5%;
+}
+
+@media(max-width:768px){
+    label,
+    .Shaper{
+        text-align:center;
+        float:none;
+        margin:auto;
+    }
+
+   #check,
+   #radi{
+       text-align:left;
+       margin-left:40%;
+       
+   }
 }
