@@ -117,6 +117,7 @@ footer{
     width:500px;
     margin:auto;
     height:280px;
+    padding-right:10px;
 }
 
 .Projects #AcmeWeb{
@@ -131,6 +132,16 @@ footer{
 
 .Projects #TributePage{
     text-align:center;
+}
+
+.Projects #SurveyForm{
+    text-align:center;
+}
+
+.Projects #SurveyForm img{
+    width:400px;
+    margin:auto;
+    height:280px;
 }
 
 #AboutMe,
