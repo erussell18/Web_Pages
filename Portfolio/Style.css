@@ -144,6 +144,16 @@ footer{
     height:280px;
 }
 
+.Projects #ProductLandingPage{
+    text-align:center;
+}
+
+.Projects #ProductLandingPage img{
+    width:400px;
+    margin:auto;
+    height:280px;
+}
+
 #AboutMe,
 #AboutContent{
     width:70%;
