@@ -18,4 +18,18 @@ header{
     padding:10px;
     margin-right:30%;
     margin-left:30%;
+
+}
+
+#Schedule{
+    width:400px;
+    height:200px;
+    
+}
+#Day,
+#StartDate,
+#StartTime,
+#Reason,
+#EndTime{
+    width:200px;
 }
