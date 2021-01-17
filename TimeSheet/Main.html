@@ -12,7 +12,7 @@
 
         <section class="TimeApp">
             <div class="Container">
-                <form>
+                <form><!--
                     <article id="Days">
                         <select name="Day" id="Day">
                             <option value="Monday">Monday</option>
@@ -21,23 +21,27 @@
                             <option value="Thursday">Thursday</option>
                             <option value="Friday">Friday</option>
                         </select>
-
-                    </article>
+                    
+                    </article>-->
                     <article class="StartTime">
                         <input type="date" id="StartDate" max="12-12-2030" ><br>
-                        <input type="text" id="StartTime" placeholder="Start Time" required>
+                        <input type="text" id="StartTime" placeholder="Start Time" value="8:00AM" required>
                     </article>
 
                     <article class="EndTime">
-                        <input type="text" id="EndTime" placeholder="End Time" required>
+                        <input type="text" id="EndTime" placeholder="End Time" value="10:00AM" required>
                     </article>
 
                     <article class="Reason">
-                        <input type="text" id="Reason" placeholder="Reason">
+                        <input type="text" id="Reason" placeholder="Reason" value="Scheduled Work">
                     </article>
 
                     <article class="SubmitTime">
                         <button type="button" id="SubmitTime">Submit Time</button>
+                    </article>
+
+                    <article class="CalcTime">
+                        <button type="button" id="CalcTime">Total Hours</button>
                     </article>
 
                     <article class="Schedule">
