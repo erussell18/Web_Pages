@@ -97,7 +97,7 @@ nav a:hover{
 }
 
 .Skills #GraphicDes h2{
-    padding-right:20px;
+    padding-right:10px;
 }
 
 footer{
@@ -114,7 +114,7 @@ footer{
 }
 
 .Projects #AcmeWeb img{
-    width:500px;
+    width:300px;
     margin:auto;
     height:280px;
     padding-right:10px;
@@ -125,7 +125,7 @@ footer{
 }
 
 .Projects #TributePage img{
-    width:500px;
+    width:300px;
     margin:auto;
     height:280px;
 }
@@ -139,9 +139,10 @@ footer{
 }
 
 .Projects #SurveyForm img{
-    width:400px;
+    width:300px;
     margin:auto;
     height:280px;
+    padding-right:10px;
 }
 
 .Projects #ProductLandingPage{
@@ -149,10 +150,22 @@ footer{
 }
 
 .Projects #ProductLandingPage img{
-    width:400px;
+    width:300px;
     margin:auto;
     height:280px;
 }
+
+.Projects #TimeSheetApp{
+    text-align:center;
+}
+
+.Projects #TimeSheetApp img{
+    width:300px;
+    margin:auto;
+    height:280px;
+}
+
+
 
 #AboutMe,
 #AboutContent{
@@ -165,12 +178,19 @@ footer{
 }
 
 #Contact{
-    float:right;
     background-color: #676767;
     margin-top:10px;
-    margin-bottom:10%;
+    margin-bottom:5%;
     padding:10px;
     font-weight:bold;
+    text-align:center;
+    margin-right:10%;
+    margin-left:10%;
+}
+
+#GitHubLink{
+    color:#14C400;
+    text-decoration:none;
 }
 
 
