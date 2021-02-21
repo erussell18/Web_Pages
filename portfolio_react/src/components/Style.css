@@ -108,9 +108,7 @@ footer{
 }
 
 .Projects{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
+    text-align:center;
 }
 
 .Projects #AcmeWeb img{
@@ -134,8 +132,14 @@ footer{
     text-align:center;
 }
 
-.Projects #SurveyForm{
+.Projects #SurveyForm , a{
     text-align:center;
+    text-decoration:none;
+    color:black;
+}
+
+.Projects a:hover{
+    color:#14C400;
 }
 
 .Projects #SurveyForm img{
@@ -189,8 +193,12 @@ footer{
 }
 
 #GitHubLink{
-    color:#14C400;
+    color:black;
     text-decoration:none;
+}
+
+#GitHubLink:hover{
+    color:#14C400;
 }
 
 

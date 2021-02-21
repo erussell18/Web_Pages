@@ -1,6 +1,11 @@
 import React from "react"
 import Navigation from "./Navigation"
 import Footer from "./Footer"
+import Acme_Web from "./Acme_Pic.png"
+import { Link } from "react-router-dom"
+/*import SurveyForm from "./Survey_Form.jpg"
+import TimeSheet from "./TimeSheet.jpg"
+import TributePage from "./TributePic.png"*/
 
 function Portfolio(){
     return(
@@ -20,27 +25,27 @@ function Portfolio(){
 
                 <section class="Projects">
                     <article id="AcmeWeb">
-                        <a href="../Acme_webDesign/Home.html" target="_blank"><img src="Acme_Pic.png"></img></a>
+                        <Link to="./components/WebPages/Acme_WebDesign/Home.html" target="_blank"><img src={Acme_Web} alt="Acme Web Page" /></Link>
                         <h2>Acme Web Design</h2>  
                     </article>
 
                     <article id="TributePage">
-                        <a href="../Tribute_Page/Main.html" target="_blank"><img src="TributePic.png"></img></a>
+                        <a href="../Tribute_Page/Main.html" target="_blank"></a>
                         <h2>Tribute Page</h2>
                     </article>
 
                     <article id="SurveyForm">
-                        <a href="../Survey_Page/Survey.html" target="_blank"><img src="Survey_Form.JPG"></img></a>
+                        <a href="../Survey_Page/Survey.html" target="_blank"></a>
                         <h2>Survey Form</h2>
                     </article>
 
                     <article id="ProductLandingPage">
-                        <a href="../Product_LandingPage/Home.html" targe="_blank"><img src="Landing-Page.JPG"></img></a>
+                        <a href="../Product_LandingPage/Home.html" targe="_blank"></a>
                         <h2>Landing Page</h2>
                     </article>
 
                     <article id="TimeSheetApp">
-                        <a href="../TimeSheet/Main.html" targe="_blank"><img src="TimeSheet.JPG"></img></a>
+                        <a href="../TimeSheet/Main.html" targe="_blank"></a>
                         <h2>Time Sheet App</h2>
                     </article>
                 </section>

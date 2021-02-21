@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Survey</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="UpdatedStyle.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for taking the time to take this survey</p>
+        </header>
+
+        <section>
+            <article>
+            <form id="survey-form" action="">
+                <label for="name" id="name-label" class="Shaper">Name</label><br>
+                    <input type="text" class="Shaper" id="name" name="name" placeholder="Enter your name" required><br>
+
+                <label for="email" id="email-label" class="Shaper">Email</label><br>
+                    <input type="email" class="Shaper" id="email" name="email" placeholder="Enter your email" required><br>
+
+                <label for="age" id="age-label" class="Shaper">Age (optional)</label><br>
+                    <input type="number" class="Shaper" id="age" name="age" placeholder="Age" min=10 max=100><br>
+
+                <label for="dropdown" class="Shaper">What is you highes level of education?</label><br>
+                    <select name="dropdown" id="dropdown" class="Shaper">
+                        <option value="" disabled selected>Select Level</option>
+                        <option value="College">College</option>
+                        <option value="Highschool">Highschool</option>
+                        <option value="Other">Other</option>
+                    </select><br>
+
+                <label for="radio" id="radio-label" class="Shaper">How likely are you to pursue higher education?</label><br>
+                <article id="radi">    
+                <input type="radio" id="Likely" name="selection" value="Likely" class="Shaper">
+                    <label for="Likely">Likely</label><br>
+
+                    <input type="radio" id="NotSure" name="selection" value="NotSure" class="Shaper">
+                    <label for="NotSure">Not Sure</label><br>
+
+                    <input type="radio" id="NotLikely" name="selection" value="NotLikely" class="Shaper">
+                    <label for="NotLiekly">Not Likely</label><br>
+                </article>
+                <label for="checkbox" id="checkbox-label" class="Shaper">What is your favorite sport? (check all that apply)</label><br>
+                <article id="check">   
+                <input type="checkbox" id="Football" name="Football" value="Football" class="Shaper">
+                    <label for="Football">Football</label><br>
+
+                    <input type="checkbox" id="Soccer" name="Soccer" value="Soccer" class="Shaper">
+                    <label for="Soccer">Soccer</label><br>
+
+                    <input type="checkbox" id="Hockey" name="Hockey" value="Hockey" class="Shaper">
+                    <label for="Hockey">Hockey</label><br>
+                </article>
+                <label for="textarea" id="textarealabel" class="Shaper">Any Additional Comments</label><br>
+                    <textarea class="Shaper" id="textarea" placeholder="Enter your comment here..."></textarea><br>
+                <button type="submit" id="Submit">Submit</button>
+            </form>
+            </article>
+        </section>
+    </body>
+</html>

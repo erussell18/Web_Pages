@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="inputtest" type="date">
+    <button type="button" id="testbutton" onclick = date()>Test</button> 
+    <input type="time" id="datetest">
+    <input type="time" id="datetesttwo">
+    <h1 id="testdisplay"></h1>   
+
+    <script>
+        var weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+        const CTestone = "test";
+        const CTesttwo = " one";
+
+        function date(){
+            var input = document.getElementById('inputtest');
+            var date = new Date(input.value);
+            var weekday = date.getDay();
+
+            document.getElementById('testdisplay').innerHTML = weekdays[weekday];
+        }
+
+        var datetest = document.getElementById("datetest");
+        var datetesttwo = document.getElementById("datetesttwo");
+        var testbutton = document.getElementById("testbutton");
+
+        testbutton.onclick = function(){
+            console.log(CTestone,CTesttwo);
+            console.log(datetest);
+            document.getElementById('testdisplay').innerHTML = parseFloat(datetesttwo.value) - parseFloat(datetest.value);
+
+        }
+
+        
+    </script>
+</body>
+</html>
