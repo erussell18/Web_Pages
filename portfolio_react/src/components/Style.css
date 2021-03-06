@@ -111,17 +111,6 @@ footer{
     text-align:center;
 }
 
-.Projects #AcmeWeb img{
-    width:300px;
-    margin:auto;
-    height:280px;
-    padding-right:10px;
-}
-
-.Projects #AcmeWeb{
-    text-align:center;
-}
-
 .Projects #TributePage img{
     width:300px;
     margin:auto;
@@ -202,7 +191,11 @@ footer{
 }
 
 
-
+@media(max-width:2559px){
+    body{
+        height:100%;
+    }
+}
 @media(max-width:768px){
     header h1,
     nav,
@@ -237,3 +230,20 @@ footer{
     }
 }
 
+@media (max-width:426px){
+    nav ul,
+    nav li{
+        display:block;
+        width:85%;
+        float:none;
+        font-size:35px;
+    }
+
+    nav li{
+        padding-bottom: 2%;
+    }
+
+    #Contact{
+        width:80%;
+    }
+}

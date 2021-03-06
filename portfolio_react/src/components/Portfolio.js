@@ -24,29 +24,21 @@ function Portfolio(){
                 </section>
 
                 <section class="Projects">
-                    <article id="AcmeWeb">
-                        <Link to="./components/WebPages/Acme_WebDesign/Home.html" target="_blank"><img src={Acme_Web} alt="Acme Web Page" /></Link>
-                        <h2>Acme Web Design</h2>  
-                    </article>
 
                     <article id="TributePage">
-                        <a href="../Tribute_Page/Main.html" target="_blank"></a>
-                        <h2>Tribute Page</h2>
+                        <a href="https://eddie-russell-portfolio.s3.us-east-2.amazonaws.com/Tribute_Page/Main.html" target="_blank"> <h2>Tribute Page</h2></a>
                     </article>
 
                     <article id="SurveyForm">
-                        <a href="../Survey_Page/Survey.html" target="_blank"></a>
-                        <h2>Survey Form</h2>
+                        <a href="https://eddie-russell-portfolio.s3.us-east-2.amazonaws.com/Survey_Page/Survey.html" target="_blank"><h2>Survey Form</h2></a>
                     </article>
 
                     <article id="ProductLandingPage">
-                        <a href="../Product_LandingPage/Home.html" targe="_blank"></a>
-                        <h2>Landing Page</h2>
+                        <a href="https://eddie-russell-portfolio.s3.us-east-2.amazonaws.com/Product_LandingPage/Home.html" target="_blank"><h2>Landing Page</h2></a>
                     </article>
 
                     <article id="TimeSheetApp">
-                        <a href="../TimeSheet/Main.html" targe="_blank"></a>
-                        <h2>Time Sheet App</h2>
+                        <a href="https://eddie-russell-portfolio.s3.us-east-2.amazonaws.com/TimeSheet/Main.html" target="_blank"><h2>Time Sheet App</h2></a>
                     </article>
                 </section>
 
